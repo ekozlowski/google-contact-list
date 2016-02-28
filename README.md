@@ -7,7 +7,7 @@ I needed something to let me manage my wife's Google contact list programaticall
 
 # What This Needs To Work
 
-You'll need to generate a oauth 2 token and put the token into config.py's 'auth_token' section.  (Paste it in over '<REDACTED>').
+You'll need to generate a oauth 2 token and put the token into config.py's 'auth_token' section.  (Paste it in over the REDACTED section).
 
 You can generate Oauth2 tokens that work here:  https://developers.google.com/oauthplayground/
 
