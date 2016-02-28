@@ -107,11 +107,13 @@ class ContactList(object):
 
 
 def parse_contact_list():
-    root = ET.fromstring(get_contact_list())
+    try:
+        root = ET.fromstring(get_contact_list())
+    except ET.ParseError:
+        raise Exception("Could not parse XML Contact List.  Did you forget to update your config Oauth2 key?")
     cl = ContactList(root)
     for c in cl:
-        c.clean_emails()
-        c.update()
+        print(c)    
 
 if __name__ == "__main__":
     parse_contact_list()
