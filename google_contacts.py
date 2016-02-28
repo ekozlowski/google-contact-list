@@ -62,5 +62,5 @@ def parse_contact_list():
     cl = ContactList(root)
 
 if __name__ == "__main__":
-    get_contact_list()
+    #get_contact_list()
     parse_contact_list()
