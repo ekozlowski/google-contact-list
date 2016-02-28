@@ -1,7 +1,8 @@
 import requests
 import xml.etree.ElementTree as ET
+import config
 
-auth_token = '<REDACTED>'
+auth_token = config.auth_token
 
 def get_contact_list():
     headers = {
