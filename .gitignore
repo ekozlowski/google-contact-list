@@ -1,8 +1,3 @@
-# Ignored files
-contact_list.xml
-# v config.py is ignored, because I only want to commit it when I add something.
-config.py 
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
